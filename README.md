@@ -4,7 +4,6 @@ Olympic Data Analytics | Azure End-To-End Data Engineering Project
 
 This project focuses on performing an **ETL pipeline and dashboarding** on the **Tokyo Olympics dataset** using Microsoft Azure cloud services.
 
----
 
 ## Project Overview
 
@@ -12,13 +11,11 @@ The project is divided into two major parts:
 1. **ETL of Tokyo Olympic data and analytical querying**
 2. **Dashboarding using Tableau**
 
----
 
 ## Data Source
 
 - GitHub is used as the **primary source** of the raw dataset (`CSV` format).
 
----
 
 ## ☁Azure Services Explored
 
@@ -38,7 +35,6 @@ The project is divided into two major parts:
 - Cloud SQL Data Warehouse.
 - Enables advanced querying and analysis.
 
----
 
 ## ETL Workflow
 
@@ -49,7 +45,6 @@ The project is divided into two major parts:
 5. **Load** the data into target tables in Azure Synapse Analytics.
 6. **Analyze** the data using SQL queries.
 
----
 
 ## Dashboarding in Tableau
 
@@ -59,34 +54,41 @@ The project is divided into two major parts:
 4. Query Spark table using **serverless SQL**.
 5. **Tableau** connects to serverless SQL and visualizes data through interactive graphs.
 
----
-
 ## Project Architecture
 
-![Azure-Olympic-ETL-Diagram](assets/olympic-azure-architecture.png)
+![Azure-Olympic-ETL-Diagram](https://github.com/Sharanya-aa/Azure-DevOps-Olympic-Podium/blob/main/Azure_DA.png)
 
-> 💡 *Place your diagram image in a folder named `assets` inside your repo and name it `olympic-azure-architecture.png`, or update the path above accordingly.*
-
----
 
 ## Folder Structure
 
 Azure-DevOps-Olympic-Podium/
+
 │
+
 ├── assets/
+
 │ └── olympic-azure-architecture.png
+
 ├── data/
+
 │ └── olympic_raw_data.csv
+
 ├── notebooks/
+
 │ └── transform_data_pyspark.ipynb
+
 ├── pipeline/
+
 │ └── adf_pipeline.json
+
 ├── queries/
+
 │ └── synapse_queries.sql
+
 └── README.md
 
 
----
+
 
 ## Status
 
